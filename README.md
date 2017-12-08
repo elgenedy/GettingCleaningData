@@ -11,6 +11,8 @@ Start out by reading all files into memory.
 According to instructions, script should work as long as the Samsung data is in the working directory,
 so all files will be loaded asuming the presence of the entire "UCI HAR Dataset" folder in the working directory
 
+For your convenience, I've added this folder to this repo (I've excluded the Inertial Signals folders)
+
 Since no file has headers in it, every read.csv call has a header=F
 
 Next step is decoding activities and labels. Every label is a number which corresponds to a named activity.
